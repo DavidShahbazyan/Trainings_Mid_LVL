@@ -1,4 +1,4 @@
-package com.synisys.trainings.mid.interfacesAndInnerClasses;
+package com.synisys.trainings.mid.interfacesAndNestedClasses;
 
 /**
  * @author David.Shahbazyan

@@ -1,4 +1,4 @@
-package com.synisys.trainings.mid.interfacesAndInnerClasses;
+package com.synisys.trainings.mid.interfacesAndNestedClasses;
 
 import javax.swing.*;
 import java.awt.*;
