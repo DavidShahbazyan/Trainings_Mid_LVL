@@ -1,4 +1,4 @@
-package trainings.interfacesAndInnerClasses;
+package trainings.exceptionsAndAssertions;
 
 /**
  * @author David.Shahbazyan

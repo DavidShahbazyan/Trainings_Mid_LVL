@@ -1,4 +1,4 @@
-package trainings.interfacesAndInnerClasses;
+package trainings.genericProgramming;
 
 /**
  * @author David.Shahbazyan

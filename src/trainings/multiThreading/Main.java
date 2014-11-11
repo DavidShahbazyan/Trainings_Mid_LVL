@@ -1,4 +1,4 @@
-package trainings.interfacesAndInnerClasses;
+package trainings.multiThreading;
 
 /**
  * @author David.Shahbazyan

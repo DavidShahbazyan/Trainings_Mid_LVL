@@ -1,4 +1,4 @@
-package trainings.interfacesAndInnerClasses;
+package trainings.collections;
 
 /**
  * @author David.Shahbazyan
