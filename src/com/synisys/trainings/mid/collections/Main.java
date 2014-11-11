@@ -1,4 +1,4 @@
-package trainings.inheritance;
+package com.synisys.trainings.mid.collections;
 
 /**
  * @author David.Shahbazyan

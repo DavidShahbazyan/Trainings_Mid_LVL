@@ -1,4 +1,4 @@
-package trainings.interfacesAndInnerClasses;
+package com.synisys.trainings.mid.genericProgramming;
 
 /**
  * @author David.Shahbazyan

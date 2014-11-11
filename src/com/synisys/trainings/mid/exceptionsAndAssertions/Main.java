@@ -1,4 +1,4 @@
-package trainings.exceptionsAndAssertions;
+package com.synisys.trainings.mid.exceptionsAndAssertions;
 
 /**
  * @author David.Shahbazyan

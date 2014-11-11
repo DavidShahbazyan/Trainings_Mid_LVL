@@ -1,4 +1,4 @@
-package trainings.garbageCollection;
+package com.synisys.trainings.mid.multiThreading;
 
 /**
  * @author David.Shahbazyan
