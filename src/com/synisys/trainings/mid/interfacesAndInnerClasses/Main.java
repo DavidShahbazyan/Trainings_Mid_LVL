@@ -6,6 +6,7 @@ package com.synisys.trainings.mid.interfacesAndInnerClasses;
  */
 public class Main {
     public static void main(String[] args) {
-
+        GUIForm_AnonymousInnerClass guiForm = new GUIForm_AnonymousInnerClass("Anonymous Inner Class");
+        guiForm.display();
     }
 }
