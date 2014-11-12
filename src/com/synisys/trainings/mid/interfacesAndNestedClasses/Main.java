@@ -6,7 +6,17 @@ package com.synisys.trainings.mid.interfacesAndNestedClasses;
  */
 public class Main {
     public static void main(String[] args) {
-        GUIForm_AnonymousInnerClass guiForm = new GUIForm_AnonymousInnerClass("Anonymous Inner Class");
+        createNewEqualsAndHashcodeGUIForm();
+//        createNewNestedClassesGUIForm();
+    }
+
+    public static void createNewEqualsAndHashcodeGUIForm() {
+        GUIForm_EqualsAndHashcode guiForm = new GUIForm_EqualsAndHashcode("Equals and Hashcode Template.");
+        guiForm.display();
+    }
+
+    public static void createNewNestedClassesGUIForm() {
+        GUIForm_NestedClasses guiForm = new GUIForm_NestedClasses("Anonymous Inner Class Template");
         guiForm.display();
     }
 }
