@@ -6,17 +6,17 @@ package com.synisys.trainings.mid.interfacesAndNestedClasses;
  */
 public class Main {
     public static void main(String[] args) {
-        createNewEqualsAndHashcodeGUIForm();
-//        createNewNestedClassesGUIForm();
+        GUIForm_InterfacesAndNestedClasses guiForm = new GUIForm_InterfacesAndNestedClasses();
+        guiForm.display();
     }
 
     public static void createNewEqualsAndHashcodeGUIForm() {
-        GUIForm_EqualsAndHashcode guiForm = new GUIForm_EqualsAndHashcode("Equals and Hashcode Template.");
+        GUIForm_EqualsAndHashcode guiForm = new GUIForm_EqualsAndHashcode("Equals and Hashcode Template");
         guiForm.display();
     }
 
     public static void createNewNestedClassesGUIForm() {
-        GUIForm_NestedClasses guiForm = new GUIForm_NestedClasses("Anonymous Inner Class Template");
+        GUIForm_NestedClasses guiForm = new GUIForm_NestedClasses("Nested Classes Template");
         guiForm.display();
     }
 }
