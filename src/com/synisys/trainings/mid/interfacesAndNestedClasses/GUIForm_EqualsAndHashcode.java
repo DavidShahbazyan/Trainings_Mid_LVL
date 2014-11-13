@@ -147,7 +147,7 @@ public class GUIForm_EqualsAndHashcode extends JFrame {
         public boolean equals(Object obj) {
             if (this == obj2) {
                 return true;
-            } else if (!(obj instanveof Obj)) {
+            } else if (!(obj instanceof Obj)) {
                 return false;
             } else {
                 Obj that = (Obj) obj;
