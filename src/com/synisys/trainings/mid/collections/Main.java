@@ -60,7 +60,7 @@ public class Main {
             file1Content.clear();
             file2Content.clear();
             mergeResultsLines = mergeResults.size();
-            System.out.println("MergeResults: " + mergeResultsLines);
+            System.out.println("Merge Results: " + mergeResultsLines);
             System.out.println("Duplications: " + duplicatedLineCounter);
 
             List<String> sortedMergeResults = new ArrayList<>(mergeResults);
@@ -70,7 +70,7 @@ public class Main {
                     return Integer.valueOf(o1.length()).compareTo(o2.length());
                 }
             });
-            System.out.println("Sorted      : " + sortedMergeResults.size());
+            System.out.println("Sorted Results: " + sortedMergeResults.size());
             mergeResults.clear();
 
             bw = new BufferedWriter(new FileWriter(outputFile_1));
@@ -88,7 +88,7 @@ public class Main {
             }
 
             System.out.println("Result Lines: " + resLines);
-            System.out.println("LostLinesQtt: " + (mergeResultsLines - resLines));
+            System.out.println("Lost Lines Quantity: " + (mergeResultsLines - resLines));
 
         } catch (IOException e) {
             e.printStackTrace();
