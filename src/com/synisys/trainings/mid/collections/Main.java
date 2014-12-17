@@ -78,7 +78,7 @@ public class Main {
                 bw.write(s);
                 bw.newLine();
             }
-            System.out.println("Result  addr: " + outputFile_1.getPath());
+            System.out.println("Result address: " + outputFile_1.getPath());
             sortedMergeResults.clear();
 
             br = new BufferedReader(new FileReader(outputFile_1));
