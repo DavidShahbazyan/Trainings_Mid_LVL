@@ -1,7 +1,6 @@
 package com.synisys.trainings.mid.interfaces;
 
-
-import com.sun.javafx.beans.annotations.NonNull;
+import com.sun.istack.internal.NotNull;
 
 /**
  * Author: David.Shahbazyan
@@ -9,11 +8,11 @@ import com.sun.javafx.beans.annotations.NonNull;
  * Description:
  */
 public abstract class ShapeImpl implements Shape {
-    @NonNull
+    @NotNull
     @Override
     public abstract String getType();
 
-    @NonNull
+    @NotNull
     @Override
     public String getName() {
         return this.getClass().getSimpleName();

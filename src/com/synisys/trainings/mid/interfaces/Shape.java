@@ -1,7 +1,6 @@
 package com.synisys.trainings.mid.interfaces;
 
-import com.sun.javafx.beans.annotations.NonNull;
-
+import com.sun.istack.internal.NotNull;
 /**
  * @author David.Shahbazyan
  * @since Nov 11, 2014.
@@ -10,12 +9,12 @@ public interface Shape {
     /**
      * @return The shape's type
      */
-    @NonNull
+    @NotNull
     String getType();
 
     /**
      * @return The shape's name
      */
-    @NonNull
+    @NotNull
     String getName();
 }
