@@ -20,7 +20,7 @@ public class Main {
             File inputFile_1 = new File(Main.class.getResource("testResources/cain.txt").getFile());
             File inputFile_2 = new File(Main.class.getResource("testResources/john.txt").getFile());
 
-            File outputFile_1 = new File(Main.class.getResource("testResources").getFile() + "/Merged.wordlist");
+            File outputFile_1 = new File(Main.class.getResource("testResources").getFile() + "/Merged.wordlists");
 
             if (outputFile_1.exists()) {
                 outputFile_1.delete();
